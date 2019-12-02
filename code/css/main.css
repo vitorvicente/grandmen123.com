@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700');
+
+body {
+	width: 100%;
+	font-size:20px;
+	background-image: url("../../files/main-background.jpg");
+	font-family:Lora,'Times New Roman',serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.cards p {
+	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.cards h6 {
+	font-weight:800;
+	color: #706f6f;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.cards .card {
+  background-color: #D3D3D3;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.cards hr {
+  margin: 1.5rem 0;
+}
+
+.cards .card-title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.cards .btn {
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 80%;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+@media (min-width: 992px) {
+  .cards .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .cards .card:hover .btn {
+    opacity: 1;
+  }
+}

@@ -7,3 +7,8 @@
 - Initial File Upload
 - License & README
 - Main Page Initial HTML & CSS
+
+###### Day 18
+- HTML cleanup for Main Page
+- Navbar HTML & CSS for Content Page
+- Header HTML & CSS for Content Page

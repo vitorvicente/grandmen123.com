@@ -12,3 +12,10 @@
 - HTML cleanup for Main Page
 - Navbar HTML & CSS for Content Page
 - Header HTML & CSS for Content Page
+
+###### Day 19
+- Fixes for the Navbar & Header
+- About Section HTML & CSS
+- Series Section HTML & CSS
+- Implementation of JS libraries for smooth scroll
+- General Fixes

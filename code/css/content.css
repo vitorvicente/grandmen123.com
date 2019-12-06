@@ -274,6 +274,36 @@ h6 {
   }
 }
 
+#footer {
+  background: #00428a;
+  padding: 0 0 30px 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #004a99;
+  padding: 60px 0 30px 0;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#footer .social-icons {
+	color: #ffffff;
+	font-size: 50px;
+}
+
+#footer .social-icons:hover {
+	color: #1d77a3;
+	font-size: 50px;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;

@@ -26,3 +26,4 @@
 ###### Day 21
 - Content Page Stream & Footer Sections HTML & CSS
 - Final HTML & CSS for Content Page
+- Addition of Favicons to existent Pages

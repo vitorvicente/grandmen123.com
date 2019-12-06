@@ -166,6 +166,24 @@ h6 {
   background: #ecf5ff;
 }
 
+#stream {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#stream .img-fluid {
+  border-radius: 20px;
+}
+
+#stream .stream-content {
+  padding-top: 60px;
+}
+
+#stream .stream-content h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
 #about {
   background: #fff;
   padding: 60px 0;

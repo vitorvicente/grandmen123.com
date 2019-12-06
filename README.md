@@ -19,3 +19,10 @@
 - Series Section HTML & CSS
 - Implementation of JS libraries for smooth scroll
 - General Fixes
+
+###### Day 20
+- Working on Another Project
+
+###### Day 21
+- Content Page Stream & Footer Sections HTML & CSS
+- Final HTML & CSS for Content Page

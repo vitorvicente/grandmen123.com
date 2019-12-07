@@ -24,12 +24,12 @@
   <header id="header" class="fixed-top">
     <div class="container">
 
-      <div class="logo float-left">
+      <div class="logo float-left d-lg-block">
         <h1 class="text-light"><a href="#header"><span>Grandmen123</span></a></h1>
       </div>
-
+	  
       <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
+        <ul class="">
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#series">Series</a></li>
@@ -37,6 +37,32 @@
         </ul>
       </nav>
       
+	  
+	  <nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-none" id="mainNav">
+	  <div class="logo float-left">
+        <h1 class="text-light"><a href="#header"><span>Grandmen123</span></a></h1>
+      </div>
+	  <button class="navbar-toggler navbar-toggler-right float-right d-lg-none" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu <i class="fa fa-bars"></i>
+      </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#series">Series</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#stream">Stream</a>
+          </li>
+        </ul>
+      </div>
+	  </nav>
+	  
     </div>
   </header>
   

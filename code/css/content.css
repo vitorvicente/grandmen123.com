@@ -108,6 +108,15 @@ h6 {
   margin-top: 60px;
 }
 
+#intro2 {
+  width: 100%;
+  position: relative;
+  background: url("../../files/header-content.jpg");
+  background-size: cover;
+  padding: 200px 0 120px 0;
+  height: 400px;
+}
+
 #intro {
   width: 100%;
   position: relative;
@@ -280,6 +289,24 @@ h6 {
   font-size: 24px;
 }
 
+#intro-text {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#intro-text .img-fluid {
+  border-radius: 20px;
+}
+
+#intro-text .intro-text-content {
+  padding-top: 60px;
+}
+
+#intro-text .intro-text-content h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
 #about {
   background: #fff;
   padding: 60px 0;
@@ -296,6 +323,49 @@ h6 {
 #about .about-content h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#components {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#components .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#components .box:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+#components .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#components .title a {
+  color: #111;
+}
+
+#components .box:hover .title a {
+  color: #007bff;
+}
+
+#components .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
 
 #series {

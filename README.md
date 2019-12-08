@@ -31,3 +31,6 @@
 ###### Day 22
 - Mobile Navbar implementation
 - Mobile Stresstesting
+
+###### Day 23
+- Setup Page HTML & CSS

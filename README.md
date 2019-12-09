@@ -34,3 +34,6 @@
 
 ###### Day 23
 - Setup Page HTML & CSS
+
+###### Day 23
+- Cookies PopUp CSS, HTML & JS

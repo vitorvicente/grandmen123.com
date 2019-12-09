@@ -37,3 +37,4 @@
 
 ###### Day 24
 - Cookies PopUp CSS, HTML & JS
+- Setup Page Favicon

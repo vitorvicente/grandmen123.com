@@ -36,28 +36,6 @@ h6 {
   padding: 0;
 }
 
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: #007bff;
-  color: #fff;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  line-height: 1;
-  font-size: 16px;
-  border-radius: 50%;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s;
-  z-index: 11;
-}
-
-.back-to-top i {
-  padding-top: 12px;
-  color: #fff;
-}
-
 #header .navbar-toggler {
 	font-size:12px;
 	font-weight:800;
@@ -469,23 +447,7 @@ h6 {
   padding-top: 30px;
 }
 
-
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-}
-
 @media (max-width: 767px) {
-  #intro .intro-info {
-    width: 100%;
-  }
-
-  #intro .intro-info h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
-  }
-
   .section-header p {
     width: 100%;
   }
@@ -495,4 +457,67 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+  #intro2 {
+    padding: 100px 0 20px 0;
+  }
+}
+
+.cookieConsentContainer {
+	z-index: 999;
+	width: 350px;
+	min-height: 20px;
+	box-sizing: border-box;
+	padding: 30px 30px 30px 30px;
+	background: #232323;
+	overflow: hidden;
+	position: fixed;
+    bottom: 30px;
+	right: 30px;
+	display: none;
+}
+.cookieConsentContainer .cookieTitle a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 20px;
+	display: block;
+}
+.cookieConsentContainer .cookieDesc p {
+	margin: 0;
+	padding: 0;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	display: block;
+	margin-top: 10px;
+} .cookieConsentContainer .cookieDesc a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.cookieConsentContainer .cookieButton a {
+	display: inline-block;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+	background: #000000;
+	box-sizing: border-box; 
+	padding: 15px 24px;
+	text-align: center;
+	transition: background 0.3s;
+}
+.cookieConsentContainer .cookieButton a:hover { 
+	cursor: pointer;
+	background: cyan;
+}
+
+@media (max-width: 980px) {
+	.cookieConsentContainer {
+		bottom: 0px !important;
+		left: 0px !important;
+		width: 100%  !important;
+	}
 }

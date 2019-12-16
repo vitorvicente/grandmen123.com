@@ -1,6 +1,6 @@
 // --- Variables --- //
 var purecookieTitle = "";
-var purecookieDesc = "<p>This website utilizes cookies to improve your navigation experience, you can read our privacy policy by clicking the link bellow. </p><p> By continuing to navigate the website you agree to the use of cookies under the terms and rules of the EU</p>";
+var purecookieDesc = "<p>This website utilizes cookies to improve your navigation experience. </p><p> By continuing to navigate the website you agree to the use of cookies under the terms and rules of the EU</p>";
 var purecookieLink = '';
 var purecookieButton = "Understood";
 // ---        --- //

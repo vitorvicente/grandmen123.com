@@ -42,6 +42,6 @@
 ###### Day 25-30
 - Working on Another Project
 
-###### Day 26
+###### Day 31
 - Bug Fixes
 - Complete rework of Initial Page

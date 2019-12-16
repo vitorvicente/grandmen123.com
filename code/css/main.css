@@ -1,61 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700');
 
 body {
-	width: 100%;
-	font-size:20px;
-	background-image: url("../../files/main-background.jpg");
-	font-family:Lora,'Times New Roman',serif;
+	line-height: 1.2;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+    background: #ffffff url('../../files/main-background.jpg') no-repeat center top;
+    background-size: cover;
 }
 
-.cards p {
-	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+.content {
+	margin-top: 50px;
+	color: #fff;
 }
 
-.cards h6 {
+.logo img {
+	display: inline-block;
+}
+
+.section-padding {
+	padding: 60px;
+}
+
+.sections h3 {
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	padding: 10px 0px 15px;
+    font-size: 25px;
+}
+
+.sections p {
+	font-size: 20px;
+	padding: 10px 0px 15px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.sections i {
+	color: #ffffff;
+	font-size: 50px;
+	padding: 10px 0px 15px;
+}
+
+.sections i:hover {
+	color: #1d77a3;
+	font-size: 60px;
+	padding: 10px 0px 5px;
+}
+
+.sections .btn {
+	font-size:14px;
 	font-weight:800;
-	color: #706f6f;
+	padding:15px 25px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	border-radius:10px;
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
 
-.cards .card {
-  background-color: #D3D3D3;
-  border: none;
-  border-radius: 1rem;
-  transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+.sections .btn-primary {
+	background-color:#0085a1;
+	border-color:#0085a1
 }
 
-.cards hr {
-  margin: 1.5rem 0;
+.sections .btn-primary:active,.btn-primary:focus,.btn-primary:hover {
+	color:#fff;
+	background-color:#00657b!important;
+	border-color:#00657b!important
 }
 
-.cards .card-title {
-  font-size: 3rem;
-  margin: 0;
-}
-
-.cards .btn {
-  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-  font-size: 80%;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
-
-@media (min-width: 992px) {
-  .cards .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+@media (min-width: 501px) and (max-width: 901px) {
+  .section-padding {
+    padding: 60px 30px;
   }
-  .cards .card:hover .btn {
-    opacity: 1;
+  body {
+    overflow-x:hidden; 
+  }
+}
+
+@media (min-width: 20px) and (max-width: 500px) {
+  .section-padding {
+    padding: 60px 30px;
   }
 }

@@ -38,3 +38,10 @@
 ###### Day 24
 - Cookies PopUp CSS, HTML & JS
 - Setup Page Favicon
+
+###### Day 25-30
+- Working on Another Project
+
+###### Day 26
+- Bug Fixes
+- Complete rework of Initial Page

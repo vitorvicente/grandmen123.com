@@ -45,3 +45,7 @@
 ###### Day 31
 - Bug Fixes
 - Complete rework of Initial Page
+
+###### Day 32
+- Bug Fixes
+- Complete rework of Content Page

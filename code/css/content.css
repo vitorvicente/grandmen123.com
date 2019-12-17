@@ -70,9 +70,13 @@ h6 {
   text-transform: uppercase;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a {
   color: #00366f;
+  text-decoration: none;
+}
+
+#header .logo h1 a:hover {
+  color: #0b6bd3;
   text-decoration: none;
 }
 
@@ -136,67 +140,6 @@ h6 {
 	text-transform:uppercase
 }
 
-@media only screen and (min-width:992px) {
- #mainNav {
- 	border-bottom:1px solid transparent;
- 	background:0 0
- }
-
- #mainNav .navbar-brand {
- 	padding:10px 20px;
- 	color:#fff
- }
-
- #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {
- 	color:rgba(255,255,255,.8)
- }
-
- #mainNav .navbar-nav>li.nav-item>a {
- 	padding:10px 20px;
- 	color:#fff
- }
- 
- #mainNav .navbar-nav>li.nav-item>a:focus,#mainNav .navbar-nav>li.nav-item>a:hover {
- 	color:rgba(255,255,255,.8)
- }
-}
-
-@media only screen and (min-width:992px) {
- #mainNav {
-	transition:background-color .2s;
-	transform:translate3d(0,0,0);
-	-webkit-backface-visibility:hidden
- }
-	
- #mainNav.is-fixed {
-	position:fixed;
-	top:-67px;
-	transition:transform .2s;
-  	border-bottom:1px solid #fff;
-	background-color:rgba(255,255,255,.9)
- }
-
- #mainNav.is-fixed .navbar-brand {
-	color:#212529
- }
-
- #mainNav.is-fixed .navbar-brand:focus,#mainNav.is-fixed .navbar-brand:hover {
-	color:#0085a1
- }
-
- #mainNav.is-fixed .navbar-nav>li.nav-item>a {
-	color:#212529
- }
-
- #mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,#mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
- 	color:#0085a1
- }
-
- #mainNav.is-visible {
-	transform:translate3d(0,100%,0)
- }
-}
-
 .main-nav,
 .main-nav * {
   margin: 0;
@@ -236,33 +179,24 @@ h6 {
   position: relative;
 }
 
-.section-header p {
-  text-align: center;
-  margin: auto;
-  font-size: 15px;
-  padding-bottom: 60px;
-  color: #556877;
-  width: 50%;
-}
-
 .section-bg {
   background: #ecf5ff;
 }
 
-#stream {
+#streams {
   background: #fff;
   padding: 60px 0;
 }
 
-#stream .img-fluid {
+#streams .img-fluid {
   border-radius: 20px;
 }
 
-#stream .stream-content {
+#streams .streams-content {
   padding-top: 60px;
 }
 
-#stream .stream-content h4 {
+#streams .streams-content h4 {
   font-weight: 600;
   font-size: 24px;
 }

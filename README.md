@@ -50,6 +50,6 @@
 - Bug Fixes
 - Complete rework of Content Page
 
-###### Day 32
+###### Day 33
 - Smooth Scrolling V2
 - Mobile Menu Content Page

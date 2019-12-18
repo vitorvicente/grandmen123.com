@@ -34,6 +34,31 @@
           <li><a href="#streams">Streams</a></li>
         </ul>
       </nav>
+	  
+	  <nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-none" id="mainNav">
+	  <div class="logo float-left">
+        <h1 class="text-light"><a href="#intro"><span>Grandmen123</span></a></h1>
+      </div>
+	  <button class="navbar-toggler navbar-toggler-right float-right d-lg-none" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu <i class="fa fa-bars"></i>
+      </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#series">Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#streams">Streams</a>
+          </li>
+        </ul>
+      </div>
+	  </nav>
       
     </div>
   </header>
@@ -180,13 +205,30 @@
   </footer>
 
   <!-- JavaScript Libraries -->
-  <script src="../code/js/jquery.min.js"></script>
-  <script src="../code/js/bootstrap.bundle.min.js"></script>
-  <script src="../code/js/easing.min.js"></script>
-  <script src="../code/js/wow.min.js"></script>
-  <script src="../code/js/content.js"></script>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="../code/js/cookies.js"></script>
+
+  <!-- Smooth Scroll -->
+  <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>

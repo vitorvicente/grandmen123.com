@@ -53,3 +53,7 @@
 ###### Day 33
 - Smooth Scrolling V2
 - Mobile Menu Content Page
+
+###### Day 34
+- Services Main Page HTML & CSS
+- Bug Fixes

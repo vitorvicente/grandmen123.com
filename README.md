@@ -57,3 +57,6 @@
 ###### Day 34
 - Services Main Page HTML & CSS
 - Bug Fixes
+
+###### Day 35
+- About Page HTML & CSS

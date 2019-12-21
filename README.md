@@ -60,3 +60,7 @@
 
 ###### Day 35
 - About Page HTML & CSS
+
+###### Day 36
+- ToS Page HTML & CSS
+- Bug Fixes

@@ -64,3 +64,5 @@
 ###### Day 36
 - ToS Page HTML & CSS
 - Bug Fixes
+- Vouches Page HTML & CSS
+- VIP Status Page HTML & CSS

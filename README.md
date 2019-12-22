@@ -66,3 +66,6 @@
 - Bug Fixes
 - Vouches Page HTML & CSS
 - VIP Status Page HTML & CSS
+
+###### Day 37
+- VIP Status Page Cards

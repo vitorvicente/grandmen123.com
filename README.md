@@ -69,3 +69,6 @@
 
 ###### Day 37
 - VIP Status Page Cards
+
+###### Day 38
+- Contact Page HTML & CSS

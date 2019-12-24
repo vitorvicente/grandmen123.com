@@ -73,3 +73,6 @@
 ###### Day 38
 - Contact Page HTML & CSS
 - Favicon
+
+###### Day 39
+- Services Main Page HTML & CSS

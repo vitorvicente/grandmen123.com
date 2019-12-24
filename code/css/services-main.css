@@ -222,7 +222,29 @@ h6 {
   }
 }
 
-.vip-boxes .box{
+.service-boxes .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 10px 40px 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.service-boxes .card:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.service-boxes .card-title a {
+  color: #111;
+}
+
+.service-boxes .card:hover .card-title a {
+  color: #007bff;
+}
+
+.vip-boxes .box {
   padding: 30px;
   position: relative;
   overflow: hidden;

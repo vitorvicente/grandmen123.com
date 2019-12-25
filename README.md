@@ -76,3 +76,6 @@
 
 ###### Day 39
 - Services Main Page HTML & CSS
+
+###### Day 40
+- Services Server Setups Page HTML & CSS

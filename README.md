@@ -79,3 +79,7 @@
 
 ###### Day 40
 - Services Server Setups Page HTML & CSS
+
+###### Day 41
+- Services Plugin Configurations Page HTML & CSS
+- Price fixes

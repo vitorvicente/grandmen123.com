@@ -83,3 +83,7 @@
 ###### Day 41
 - Services Plugin Configurations Page HTML & CSS
 - Price fixes
+
+###### Day 42
+- Other Minecraft Services Page HTML & CSS
+- Price fixes

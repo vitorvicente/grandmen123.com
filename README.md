@@ -87,3 +87,6 @@
 ###### Day 42
 - Other Minecraft Services Page HTML & CSS
 - Price fixes
+
+###### Day 43
+- Main Minecraft Services Page HTML & CSS

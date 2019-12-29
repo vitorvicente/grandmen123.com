@@ -90,3 +90,6 @@
 
 ###### Day 43
 - Main Minecraft Services Page HTML & CSS
+
+###### Day 44
+- Other Services Page HTML & CSS

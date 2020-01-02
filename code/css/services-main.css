@@ -154,6 +154,10 @@ h6 {
   font-size: 24px;
 }
 
+#about .about-extra li {
+  padding: 5px;
+}
+
 #about .img-fluid {
   border-radius: 20px;
 }

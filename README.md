@@ -109,3 +109,7 @@
 
 ###### Day 47
 - Links/Buttons Update & Fixes
+
+###### Day 48
+- Bug Fixes
+- Bungee Instance Details Page HTML & CSS

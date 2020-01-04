@@ -116,3 +116,11 @@
 ###### Day 48
 - Bug Fixes
 - Bungee Instance Details Page HTML & CSS
+
+###### Day 49
+- Working on Another Project
+
+###### Day 50
+- Creative Page HTML & CSS
+- Factions Page HTML & CSS
+- Footnotes CSS for Server Setup Details Page

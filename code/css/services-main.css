@@ -140,6 +140,11 @@ h6 {
   background: #ecf5ff;
 }
 
+#notes p {
+  font-size: 12px;
+  line-height: 2px;
+}
+
 #about {
   background: #fff;
   padding: 60px 0;
@@ -149,9 +154,19 @@ h6 {
   padding-top: 60px;
 }
 
+#notes .notes hr {
+  padding-bottom: 60px;
+}
+
+
 #about .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#about .about-extra .note {
+  font-size: 10px;
+  vertical-align: text-top;
 }
 
 #about .about-extra li {

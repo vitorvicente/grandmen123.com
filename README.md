@@ -3,6 +3,9 @@
 
 ##### This is the second part of a 100 day coding challenge focused on web-development
 
+###### Day 0-16
+- Working on Another Project
+
 ###### Day 17
 - Initial File Upload
 - License & README

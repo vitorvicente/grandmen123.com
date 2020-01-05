@@ -124,3 +124,8 @@
 - Creative Page HTML & CSS
 - Factions Page HTML & CSS
 - Footnotes CSS for Server Setup Details Page
+
+###### Day 51
+- KitPvP Page HTML & CSS
+- Server Lobby Page HTML & CSS
+- Bugfixes

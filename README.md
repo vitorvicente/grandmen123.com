@@ -128,4 +128,7 @@
 ###### Day 51
 - KitPvP Page HTML & CSS
 - Server Lobby Page HTML & CSS
+- Prison Server Page HTML & CSS
+- Skyblock Server Page HTML & CSS
+- Survival Server Page HTML & CSS
 - Bugfixes

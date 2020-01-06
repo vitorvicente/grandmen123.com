@@ -132,3 +132,7 @@
 - Skyblock Server Page HTML & CSS
 - Survival Server Page HTML & CSS
 - Bugfixes
+
+###### Day 52
+- DonationCraft Page HTML & CSS
+- Tebex Page HTML & CSS

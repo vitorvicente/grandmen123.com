@@ -136,3 +136,12 @@
 ###### Day 52
 - DonationCraft Page HTML & CSS
 - Tebex Page HTML & CSS
+
+###### Day 53
+- Enjin Page HTML & CSS
+- Xenforo Page HTML & CSS
+- Server Reset Page HTML & CSS
+- Server Migration Page HTML & CSS
+- Network Organization Page HTML & CSS
+- Long Term Services Page HTML & CSS
+- Panel Installation Page HTML & CSS

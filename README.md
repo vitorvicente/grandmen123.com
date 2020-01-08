@@ -145,3 +145,10 @@
 - Network Organization Page HTML & CSS
 - Long Term Services Page HTML & CSS
 - Panel Installation Page HTML & CSS
+
+###### Day 54
+- App Development Page HTML & CSS
+- Consultation Page HTML & CSS
+- Discord Development Page HTML & CSS
+- Web Development Page HTML & CSS
+- Software Development Page HTML & CSS

@@ -152,3 +152,9 @@
 - Discord Development Page HTML & CSS
 - Web Development Page HTML & CSS
 - Software Development Page HTML & CSS
+
+###### Day 55-94
+- Working on Other Projects
+
+###### Day 95
+- Bug fixes for deployment of content website

@@ -158,3 +158,11 @@
 
 ###### Day 95
 - Bug fixes for deployment of content website
+
+###### Day 96
+- Bug fixes for deployment of services website
+- Deployment of index page
+- Deployment of setup page
+
+###### Day 97
+- Bug fixes for deployment

@@ -166,3 +166,11 @@
 
 ###### Day 97
 - Bug fixes for deployment
+
+###### Day 98
+- Apps Update
+- Status Page Listings Update
+- Update Re-Direct links in PHP forms
+- Update links in status page
+- Update social links
+- Update page titles

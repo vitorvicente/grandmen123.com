@@ -174,3 +174,8 @@
 - Update links in status page
 - Update social links
 - Update page titles
+
+###### Day 99
+- Fixed contact re-directs
+- Fixed 404 Error Page
+- Updated Projects Page

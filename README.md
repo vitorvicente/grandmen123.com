@@ -179,3 +179,6 @@
 - Fixed contact re-directs
 - Fixed 404 Error Page
 - Updated Projects Page
+
+###### Day 100
+- Update Resume Details
